@@ -1,0 +1,13 @@
+train: C:/new_dataset/License Plate Detector.v1i.yolov8data/train/images
+val: C:/new_dataset/License Plate Detector.v1i.yolov8data/valid/images
+test: C:/new_dataset/License Plate Detector.v1i.yolov8data/test/images
+
+nc: 1
+names: ['LicensePlate']
+
+roboflow:
+  workspace: projectlicence
+  project: license-plate-detector-ogxxg-6i9t5
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/projectlicence/license-plate-detector-ogxxg-6i9t5/dataset/1
